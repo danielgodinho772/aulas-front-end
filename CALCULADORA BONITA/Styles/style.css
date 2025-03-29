@@ -1,0 +1,10 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(5, 1 fr);
+}

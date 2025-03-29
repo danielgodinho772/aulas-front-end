@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+    <div class="calculadora">
+    <div class="inputs">
+        <h1>Calcular dois fatores</h1>
+        <input type="number" id="numero1" placeholder="Número 1">
+        <input type="number" id="numero2" placeholder="Número 2">
+    </div>
+    <div class="buttons">
+        <button onclick="somar()">+</button>
+        <button onclick="subtrair()">-</button>
+        <button onclick="multiplicar()">x</button>
+        <button onclick="dividir()">/</button>
+    </div>
+    <div class="resulted">
+        <h2>Resultado</h2>
+        <h2 id="resulted"></h2>
+    </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
